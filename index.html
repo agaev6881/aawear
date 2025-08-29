@@ -98,6 +98,28 @@
 </div>
  </div> </div> </header>
 	<!-- header -->
+		<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bildiriş</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Qiymətlər sifariş zamanı hesablanacaq. Hər məhsulun üzərində maksimum qiymət göstərilib.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.onload = function() {
+    var myModal = new bootstrap.Modal(document.getElementById('myModal'));
+    myModal.show();
+  };
+</script>
+
 	  <main class="mt-5">
 	<div class="album py-5 bg-body-tertiary"> <div class="container"> <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
 	 
